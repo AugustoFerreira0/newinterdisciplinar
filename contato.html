@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contato</title>
+    <link rel="stylesheet" href="contato.css">
+    <style>
+        
+        .top-bar {
+            background-color: #333;
+            overflow: hidden;
+            display: flex;
+            justify-content: flex-end; /* Alinha os itens à direita */
+        }
+
+        .top-bar a {
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .top-bar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .container {
+            text-align: center; /* Centraliza o conteúdo */
+            margin-top: 300px; /* Adiciona espaço acima do formulário */
+        }
+
+        form {
+            display: inline-block; /* Permite centralizar o formulário */
+            text-align: left; /* Alinha o texto do formulário à esquerda */
+            margin-top: 100px; /* Adicione a margem superior desejada */
+        }
+    </style>
+<body>
+    
+<div class="top-bar">
+    <a href="index.html">Inicial</a>
+    <a href="contato.html">Contato</a>
+    <a href="servicos.html">Serviços</a>
+    <a href="sobre.html">Sobre</a>
+</div>
+
+<div class="container">
+    <h1>Entre em contato conosco</h1>
+
+    <form>
+        <label for="mensagem">Digite aqui o seu questionamento:</label><br>
+        <textarea id="mensagem" name="mensagem" rows="4" cols="50"></textarea><br><br>
+
+        <label for="email">Agora, digite seu E-mail para entrarmos em:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+</div>
+
+</body>
+</html>

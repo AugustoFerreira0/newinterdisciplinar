@@ -1,0 +1,9 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    background-image: url("img/back.jpeg");
+    background-size: cover;
+    position: relative;
+    color: #fff; /* Altera a cor do texto para branco */
+}

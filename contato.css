@@ -1,0 +1,57 @@
+body {
+    padding-top: 60px;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    background-image: url("img/back.jpeg");
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    position: relative;
+    color: #fff; /* Altera a cor do texto para branco */
+}
+.container {
+    width: 60%;
+    margin: 0 auto; /* Define as margens laterais para 'auto' para centralizar horizontalmente */
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center; /* Alinha o conteúdo ao centro */
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 80px; /* Adiciona um espaçamento no topo do formulário */
+}
+
+
+.contact-info {
+    text-align: center;
+}
+
+.contact-info h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 28px;
+}
+
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+.contact-info ul li {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.info-label {
+    display: inline-block;
+    width: 120px;
+    font-weight: bold;
+    color: #333;
+}
+form {
+    margin-top: 50px; /* Adiciona um espaçamento no topo do formulário */
+}
+
